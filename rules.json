@@ -1,0 +1,861 @@
+{
+  "business_name": "Sarvam Tech Academy",
+  "support_hours": "Monday to Saturday, 9:00 AM - 7:00 PM IST",
+  "support_schedule": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start_hour": 9,
+    "start_minute": 0,
+    "end_hour": 19,
+    "end_minute": 0
+  },
+  "after_hours_reply": "We're currently offline. Our support hours are Mon-Sat 9 AM to 7 PM IST. Leave your query and we'll get back to you first thing!",
+  "mode": "Online + Offline (Hybrid)",
+  "human_contact": {
+    "phone": "+91-9876543210",
+    "email": "admissions@sarvamtech.in",
+    "available": "Mon-Sat 9 AM - 7 PM IST"
+  },
+  "booking_link": "https://calendly.com/sarvamtech/free-counseling",
+  "enroll_link": "https://forms.google.com/sarvamtech-enroll",
+  "location": {
+    "address": "42, MG Road, Mumbai, Maharashtra 400001",
+    "landmark": "Near MG Road Metro Station",
+    "google_maps": "https://maps.google.com/?q=MG+Road+Mumbai"
+  },
+  "course_catalog_summary": "We offer 5 courses:\n1. Python + DSA (10 wks, Beginner) — INR 8,000\n2. Machine Learning Bootcamp (12 wks, Intermediate) — INR 12,000\n3. Deep Learning: CV & NLP (14 wks, Intermediate) — INR 15,000\n4. Java + Backend Dev (12 wks, Beginner) — INR 10,000\n5. Generative AI & AI Agents (8 wks, Intermediate) — INR 12,000\n\nAll courses include hands-on projects, certificate, and free demo class.",
+  "career_domains_we_teach": [
+    "ai",
+    "data science",
+    "machine learning",
+    "deep learning",
+    "nlp",
+    "computer vision",
+    "python",
+    "java",
+    "backend",
+    "generative ai",
+    "llm",
+    "rag",
+    "agents",
+    "prompt engineering"
+  ],
+  "career_guidance_disclaimer": "Note: This is educational guidance based on industry trends. Actual outcomes depend on your effort, consistency, and opportunities. We do not guarantee jobs or salaries.",
+  "escalation_templates": {
+    "book_cta": "Want to discuss your career plan with an expert? Book a free counseling call: {booking_link}",
+    "human_cta": "Need to talk to someone? Call us: {human_contact.phone} or email: {human_contact.email}",
+    "enroll_cta": "Ready to start? Enroll here: {enroll_link}"
+  },
+  "courses": [
+    {
+      "course_id": "python_dsa",
+      "name": "Python + Data Structures & Algorithms",
+      "duration_weeks": 10,
+      "level": "Beginner",
+      "prerequisites": "No prior coding experience needed. Basic computer skills.",
+      "outcomes": [
+        "Write clean Python code for real-world problems",
+        "Master arrays, linked lists, trees, graphs, and sorting algorithms",
+        "Solve 100+ coding problems (LeetCode/HackerRank style)",
+        "Build 2 portfolio projects"
+      ],
+      "syllabus_by_week": {
+        "Week 1-2": "Python fundamentals — variables, loops, functions, OOP basics",
+        "Week 3-4": "Arrays, strings, hashing, two pointers, sliding window",
+        "Week 5-6": "Linked lists, stacks, queues, recursion, backtracking",
+        "Week 7-8": "Trees, BST, heaps, graphs, BFS/DFS",
+        "Week 9-10": "Dynamic programming, greedy algorithms, mock interviews"
+      },
+      "projects": [
+        "CLI-based Task Manager with file persistence",
+        "Algorithm Visualizer (sorting & pathfinding)"
+      ],
+      "batch_schedule": {
+        "weekday": "Mon/Wed/Fri 7:00 PM - 8:30 PM IST",
+        "weekend": "Sat/Sun 10:00 AM - 12:30 PM IST"
+      },
+      "fees": "8,000",
+      "fees_currency": "INR",
+      "demo_class_available": true
+    },
+    {
+      "course_id": "ml_bootcamp",
+      "name": "Machine Learning Bootcamp",
+      "duration_weeks": 12,
+      "level": "Intermediate",
+      "prerequisites": "Basic Python knowledge. High-school level math (linear algebra, probability).",
+      "outcomes": [
+        "Understand supervised & unsupervised learning end-to-end",
+        "Build and deploy ML models using scikit-learn and XGBoost",
+        "Perform EDA, feature engineering, and model evaluation",
+        "Deploy a model via Flask/FastAPI REST endpoint"
+      ],
+      "syllabus_by_week": {
+        "Week 1-2": "Python refresher, NumPy, Pandas, Matplotlib, EDA",
+        "Week 3-4": "Linear regression, logistic regression, gradient descent",
+        "Week 5-6": "Decision trees, random forests, XGBoost, SVMs",
+        "Week 7-8": "Clustering (K-Means, DBSCAN), dimensionality reduction (PCA)",
+        "Week 9-10": "Feature engineering, cross-validation, hyperparameter tuning",
+        "Week 11-12": "Model deployment (Flask/FastAPI), capstone project"
+      },
+      "projects": [
+        "House Price Predictor with full pipeline",
+        "Customer Churn Prediction deployed as REST API"
+      ],
+      "batch_schedule": {
+        "weekday": "Tue/Thu 7:00 PM - 8:30 PM IST",
+        "weekend": "Sat 2:00 PM - 5:00 PM IST"
+      },
+      "fees": "12,000",
+      "fees_currency": "INR",
+      "demo_class_available": true
+    },
+    {
+      "course_id": "dl_track",
+      "name": "Deep Learning — Computer Vision & NLP",
+      "duration_weeks": 14,
+      "level": "Intermediate",
+      "prerequisites": "Python proficiency. Basic ML knowledge (regression, classification). Comfort with NumPy.",
+      "outcomes": [
+        "Build CNNs for image classification and object detection",
+        "Implement RNNs, LSTMs, and Transformers for NLP tasks",
+        "Fine-tune pre-trained models (ResNet, BERT)",
+        "Train models on GPU using PyTorch"
+      ],
+      "syllabus_by_week": {
+        "Week 1-2": "Neural network fundamentals, backpropagation, PyTorch basics",
+        "Week 3-5": "CNNs — convolutions, pooling, architectures (VGG, ResNet)",
+        "Week 6-7": "Object detection (YOLO basics), image segmentation",
+        "Week 8-9": "RNNs, LSTMs, GRUs, sequence-to-sequence models",
+        "Week 10-11": "Transformers, attention mechanism, BERT fine-tuning",
+        "Week 12-14": "Capstone — end-to-end CV or NLP project with deployment"
+      },
+      "projects": [
+        "Image Classification app (food/plant disease detector)",
+        "Sentiment Analysis API using fine-tuned BERT"
+      ],
+      "batch_schedule": {
+        "weekday": "Mon/Wed/Fri 8:00 PM - 9:30 PM IST",
+        "weekend": "Sun 10:00 AM - 1:00 PM IST"
+      },
+      "fees": "15,000",
+      "fees_currency": "INR",
+      "demo_class_available": true
+    },
+    {
+      "course_id": "java_backend",
+      "name": "Java + Backend Development",
+      "duration_weeks": 12,
+      "level": "Beginner",
+      "prerequisites": "No prior experience needed. Familiarity with any programming language is a plus.",
+      "outcomes": [
+        "Write production-quality Java with OOP and design patterns",
+        "Build REST APIs with Spring Boot",
+        "Work with MySQL/PostgreSQL and JPA/Hibernate",
+        "Containerize apps with Docker basics"
+      ],
+      "syllabus_by_week": {
+        "Week 1-2": "Java fundamentals — syntax, OOP, collections, exception handling",
+        "Week 3-4": "Advanced Java — generics, streams, multithreading basics",
+        "Week 5-7": "Spring Boot — REST APIs, dependency injection, MVC",
+        "Week 8-9": "Database — SQL, JPA/Hibernate, connection pooling",
+        "Week 10-11": "Authentication (JWT), testing (JUnit), logging",
+        "Week 12": "Docker basics, CI/CD intro, capstone project"
+      },
+      "projects": [
+        "URL Shortener REST API with Spring Boot + MySQL",
+        "E-commerce Backend (products, cart, orders, auth)"
+      ],
+      "batch_schedule": {
+        "weekday": "Tue/Thu 7:30 PM - 9:00 PM IST",
+        "weekend": "Sat/Sun 11:00 AM - 1:00 PM IST"
+      },
+      "fees": "10,000",
+      "fees_currency": "INR",
+      "demo_class_available": true
+    },
+    {
+      "course_id": "genai_agents",
+      "name": "Generative AI & AI Agents",
+      "duration_weeks": 8,
+      "level": "Intermediate",
+      "prerequisites": "Python proficiency. Basic understanding of APIs and LLMs helpful.",
+      "outcomes": [
+        "Build applications using OpenAI, Claude, and open-source LLMs",
+        "Implement RAG pipelines with vector databases",
+        "Create autonomous AI agents with tool use",
+        "Deploy GenAI apps with Streamlit/Gradio"
+      ],
+      "syllabus_by_week": {
+        "Week 1-2": "LLM fundamentals, prompt engineering, OpenAI/Claude APIs",
+        "Week 3-4": "RAG — embeddings, vector DBs (ChromaDB/Pinecone), retrieval chains",
+        "Week 5-6": "AI Agents — LangChain/CrewAI, tool use, function calling",
+        "Week 7-8": "Deployment, guardrails, evaluation, capstone project"
+      },
+      "projects": [
+        "RAG-powered Document Q&A Chatbot",
+        "Multi-Agent Research Assistant with tool use"
+      ],
+      "batch_schedule": {
+        "weekday": "Wed/Fri 7:00 PM - 8:30 PM IST",
+        "weekend": "Sun 2:00 PM - 4:30 PM IST"
+      },
+      "fees": "12,000",
+      "fees_currency": "INR",
+      "demo_class_available": true
+    }
+  ],
+  "course_keywords": {
+    "python_dsa": [
+      "python",
+      "dsa",
+      "data structure",
+      "algorithm",
+      "coding",
+      "programming",
+      "leetcode"
+    ],
+    "ml_bootcamp": [
+      "ml",
+      "machine learning",
+      "sklearn",
+      "scikit",
+      "regression",
+      "classification",
+      "data science"
+    ],
+    "dl_track": [
+      "dl",
+      "deep learning",
+      "cnn",
+      "nlp",
+      "computer vision",
+      "pytorch",
+      "neural network",
+      "cv",
+      "bert",
+      "transformer"
+    ],
+    "java_backend": [
+      "java",
+      "spring",
+      "spring boot",
+      "backend",
+      "api",
+      "rest",
+      "hibernate",
+      "jpa"
+    ],
+    "genai_agents": [
+      "genai",
+      "gen ai",
+      "generative ai",
+      "llm",
+      "rag",
+      "agent",
+      "agents",
+      "langchain",
+      "chatbot",
+      "gpt",
+      "claude",
+      "openai",
+      "prompt"
+    ]
+  },
+  "synonyms": {
+    "fees": [
+      "price",
+      "pricing",
+      "cost",
+      "charges",
+      "kitna",
+      "fee",
+      "paisa",
+      "paise",
+      "rupees",
+      "amount",
+      "rate",
+      "rates"
+    ],
+    "syllabus": [
+      "curriculum",
+      "modules",
+      "subjects",
+      "outline",
+      "course structure",
+      "topics",
+      "content",
+      "kya padhate",
+      "kya sikhate"
+    ],
+    "batch": [
+      "timing",
+      "schedule",
+      "start date",
+      "next batch",
+      "kab",
+      "samay",
+      "class time",
+      "slot"
+    ],
+    "duration": [
+      "how long",
+      "kitne weeks",
+      "kitne din",
+      "length",
+      "weeks",
+      "months",
+      "duration"
+    ],
+    "prerequisites": [
+      "eligibility",
+      "requirement",
+      "qualification",
+      "who can join",
+      "background",
+      "experience needed"
+    ],
+    "demo": [
+      "trial",
+      "free class",
+      "sample",
+      "try",
+      "test class",
+      "demo class"
+    ],
+    "enroll": [
+      "register",
+      "join",
+      "admission",
+      "signup",
+      "sign up",
+      "apply",
+      "enrol"
+    ],
+    "certificate": [
+      "certification",
+      "certificate",
+      "diploma",
+      "proof",
+      "credential"
+    ],
+    "placement": [
+      "job",
+      "placement",
+      "career",
+      "hiring",
+      "internship",
+      "opportunity",
+      "naukri"
+    ],
+    "refund": [
+      "refund",
+      "money back",
+      "cancel",
+      "cancellation",
+      "return"
+    ],
+    "career": [
+      "career",
+      "roadmap",
+      "path",
+      "guidance",
+      "future",
+      "scope",
+      "become",
+      "learn",
+      "sikhu",
+      "banu"
+    ],
+    "cybersecurity": [
+      "cybersecurity",
+      "cyber security",
+      "ethical hacking",
+      "hacking",
+      "penetration testing",
+      "pentest",
+      "security analyst",
+      "soc"
+    ],
+    "cloud_devops": [
+      "cloud",
+      "devops",
+      "aws",
+      "azure",
+      "gcp",
+      "kubernetes",
+      "docker",
+      "terraform",
+      "sre",
+      "infrastructure"
+    ],
+    "web_dev": [
+      "web development",
+      "web dev",
+      "frontend",
+      "react",
+      "angular",
+      "vue",
+      "html",
+      "css",
+      "javascript",
+      "full stack",
+      "fullstack",
+      "mern",
+      "mean"
+    ],
+    "blockchain": [
+      "blockchain",
+      "web3",
+      "solidity",
+      "smart contract",
+      "crypto",
+      "ethereum",
+      "defi"
+    ]
+  },
+  "rules": [
+    {
+      "intent": "greeting",
+      "keywords": [
+        "hi",
+        "hello",
+        "hey",
+        "namaste",
+        "good morning",
+        "good evening",
+        "hola"
+      ],
+      "course_entity_required": false,
+      "reply_template": "Hello! Welcome to {business_name}. We offer courses in Python+DSA, Machine Learning, Deep Learning, Java Backend, and GenAI+Agents. What would you like to know? Ask about fees, syllabus, batches, or demo classes!"
+    },
+    {
+      "intent": "fees",
+      "keywords": [
+        "price",
+        "pricing",
+        "fee",
+        "fees",
+        "cost",
+        "kitna",
+        "charge",
+        "charges",
+        "rate",
+        "rates",
+        "paisa",
+        "paise",
+        "rupees",
+        "amount"
+      ],
+      "course_entity_required": true,
+      "reply_template": "The fees for {course.name} is INR {course.fees}. Duration: {course.duration_weeks} weeks. We also have a free demo class available!\n\nTo enroll: {enroll_link}\nTo book a free counseling call: {booking_link}",
+      "all_courses_template": "Here are our course fees:\n{all_fees}\n\nAll courses include projects + certificate. Free demo class available for each!\nEnroll: {enroll_link}"
+    },
+    {
+      "intent": "syllabus",
+      "keywords": [
+        "syllabus",
+        "curriculum",
+        "modules",
+        "subjects",
+        "outline",
+        "topics",
+        "content",
+        "kya padhate",
+        "kya sikhate",
+        "course structure"
+      ],
+      "course_entity_required": true,
+      "reply_template": "Syllabus for {course.name} ({course.duration_weeks} weeks, {course.level}):\n\n{course.syllabus}\n\nProjects: {course.projects}\n\nWant a free demo class? Type DEMO."
+    },
+    {
+      "intent": "duration",
+      "keywords": [
+        "duration",
+        "how long",
+        "kitne weeks",
+        "kitne din",
+        "length",
+        "weeks",
+        "months"
+      ],
+      "course_entity_required": true,
+      "reply_template": "{course.name} is {course.duration_weeks} weeks long ({course.level} level).\n\nBatch options:\n- Weekday: {course.batch_schedule.weekday}\n- Weekend: {course.batch_schedule.weekend}"
+    },
+    {
+      "intent": "prerequisites",
+      "keywords": [
+        "prerequisite",
+        "prerequisites",
+        "eligibility",
+        "requirement",
+        "qualification",
+        "who can join",
+        "background",
+        "experience needed"
+      ],
+      "course_entity_required": true,
+      "reply_template": "Prerequisites for {course.name}:\n{course.prerequisites}\n\nLevel: {course.level}\n\nNot sure if it's right for you? Book a free counseling call: {booking_link}"
+    },
+    {
+      "intent": "projects",
+      "keywords": [
+        "project",
+        "projects",
+        "hands on",
+        "practical",
+        "portfolio",
+        "build"
+      ],
+      "course_entity_required": true,
+      "reply_template": "Projects in {course.name}:\n{course.projects_list}\n\nAll projects are guided, hands-on, and portfolio-ready."
+    },
+    {
+      "intent": "batch_timing",
+      "keywords": [
+        "batch",
+        "timing",
+        "schedule",
+        "start date",
+        "next batch",
+        "kab",
+        "samay",
+        "class time",
+        "slot",
+        "time",
+        "timings"
+      ],
+      "course_entity_required": true,
+      "reply_template": "Batch schedule for {course.name}:\n- Weekday: {course.batch_schedule.weekday}\n- Weekend: {course.batch_schedule.weekend}\n\nNew batches start every month. For exact next start date, book a call: {booking_link}"
+    },
+    {
+      "intent": "demo_class",
+      "keywords": [
+        "demo",
+        "trial",
+        "free class",
+        "sample",
+        "try",
+        "test class",
+        "demo class"
+      ],
+      "course_entity_required": true,
+      "reply_template": "Yes! We offer a FREE demo class for {course.name}.\n\nBook your spot: {booking_link}\nOr call us: {human_contact.phone}\n\nNo commitment needed — just come and experience the teaching style!"
+    },
+    {
+      "intent": "enrollment",
+      "keywords": [
+        "enroll",
+        "enrol",
+        "register",
+        "join",
+        "admission",
+        "signup",
+        "sign up",
+        "apply"
+      ],
+      "course_entity_required": false,
+      "reply_template": "To enroll at {business_name}:\n\n1. Fill the enrollment form: {enroll_link}\n2. Or book a free counseling call first: {booking_link}\n3. Or call us directly: {human_contact.phone}\n\nWe'll guide you to the right course based on your background and goals."
+    },
+    {
+      "intent": "certificate",
+      "keywords": [
+        "certificate",
+        "certification",
+        "diploma",
+        "proof",
+        "credential"
+      ],
+      "course_entity_required": false,
+      "reply_template": "Yes! All courses at {business_name} include a Certificate of Completion upon finishing the course and projects. The certificate is verifiable and can be added to your LinkedIn profile."
+    },
+    {
+      "intent": "placement",
+      "keywords": [
+        "job",
+        "placement",
+        "career",
+        "hiring",
+        "internship",
+        "opportunity",
+        "naukri"
+      ],
+      "course_entity_required": false,
+      "reply_template": "{business_name} provides:\n- Resume & LinkedIn review\n- Interview preparation sessions\n- Job referrals to partner companies\n- Project portfolio guidance\n\nNote: We provide placement *guidance*, not a placement guarantee. Your effort + our training = great outcomes!\n\nQuestions? Call: {human_contact.phone}"
+    },
+    {
+      "intent": "refund",
+      "keywords": [
+        "refund",
+        "money back",
+        "cancel",
+        "cancellation",
+        "return"
+      ],
+      "course_entity_required": false,
+      "reply_template": "Our refund policy:\n- Full refund within 7 days of enrollment if no classes attended.\n- 50% refund within 14 days.\n- No refund after 14 days.\n\nFor refund requests, email: {human_contact.email}\nOr call: {human_contact.phone}"
+    },
+    {
+      "intent": "location_mode",
+      "keywords": [
+        "location",
+        "address",
+        "where",
+        "kahan",
+        "directions",
+        "map",
+        "place",
+        "reach",
+        "visit",
+        "online",
+        "offline",
+        "hybrid"
+      ],
+      "course_entity_required": false,
+      "reply_template": "Mode: {mode}\n\nOffline address: {location.address} (Landmark: {location.landmark})\nGoogle Maps: {location.google_maps}\n\nAll classes are available both online (Zoom) and offline. Choose what works for you!"
+    },
+    {
+      "intent": "contact_human",
+      "keywords": [
+        "human",
+        "person",
+        "agent",
+        "talk",
+        "speak",
+        "manager",
+        "support",
+        "complaint",
+        "counselor"
+      ],
+      "course_entity_required": false,
+      "reply_template": "Connecting you with our team!\n\nPhone: {human_contact.phone}\nEmail: {human_contact.email}\nAvailable: {human_contact.available}\n\nOr book a scheduled call: {booking_link}"
+    },
+    {
+      "intent": "book_call",
+      "keywords": [
+        "book",
+        "call",
+        "callback",
+        "schedule",
+        "appointment",
+        "counseling"
+      ],
+      "course_entity_required": false,
+      "reply_template": "Book a free counseling call with our team!\n\nLink: {booking_link}\n\nOr call us directly: {human_contact.phone}\nAvailable: {human_contact.available}"
+    },
+    {
+      "intent": "thanks",
+      "keywords": [
+        "thanks",
+        "thank",
+        "dhanyavaad",
+        "shukriya",
+        "okay",
+        "ok",
+        "bye",
+        "goodbye",
+        "great"
+      ],
+      "course_entity_required": false,
+      "reply_template": "You're welcome! Feel free to reach out anytime. Good luck with your learning journey! 🚀"
+    },
+    {
+      "intent": "course_list",
+      "keywords": [
+        "list",
+        "courses",
+        "catalog",
+        "all courses",
+        "what do you offer",
+        "what courses",
+        "kya kya",
+        "kya padhate",
+        "which courses",
+        "course list",
+        "show courses"
+      ],
+      "course_entity_required": false,
+      "reply_template": "{course_catalog_summary}\n\nType a course name to learn more, or type BOOK for a free counseling call!"
+    },
+    {
+      "intent": "career_roadmap",
+      "keywords": [
+        "roadmap",
+        "career path",
+        "learning path",
+        "how to become",
+        "how to learn",
+        "guide me",
+        "career plan",
+        "study plan",
+        "kaise banu",
+        "kaise sikhu",
+        "career guidance",
+        "career advice"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "career_interest",
+      "keywords": [
+        "want to become",
+        "want career",
+        "interested in",
+        "career in",
+        "future in",
+        "scope of",
+        "scope in",
+        "i want",
+        "mujhe banana hai",
+        "mujhe seekhna",
+        "want to learn",
+        "should i learn",
+        "is it good"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "student_intro",
+      "keywords": [
+        "1st year",
+        "2nd year",
+        "3rd year",
+        "4th year",
+        "first year",
+        "second year",
+        "third year",
+        "fourth year",
+        "fresher",
+        "btech",
+        "bsc",
+        "mca",
+        "mtech",
+        "bca",
+        "student",
+        "college",
+        "graduate",
+        "beginner",
+        "newbie",
+        "starter",
+        "new to"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "role_recommendation",
+      "keywords": [
+        "which role",
+        "what role",
+        "best role",
+        "right role",
+        "role for me",
+        "suggest role",
+        "recommend role",
+        "job role",
+        "suitable role",
+        "career option"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "learning_plan",
+      "keywords": [
+        "learning plan",
+        "study plan",
+        "plan for me",
+        "what to study",
+        "where to start",
+        "how to start",
+        "kaise shuru",
+        "kya padhu",
+        "starting point",
+        "step by step"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "project_portfolio",
+      "keywords": [
+        "project ideas",
+        "portfolio project",
+        "what projects",
+        "which projects",
+        "build projects",
+        "project suggestions",
+        "project for resume",
+        "capstone",
+        "side project"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "resume_guidance",
+      "keywords": [
+        "resume",
+        "cv",
+        "resume tips",
+        "resume review",
+        "how to write resume",
+        "resume format",
+        "linkedin profile",
+        "linkedin tips"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "interview_prep",
+      "keywords": [
+        "interview",
+        "interview prep",
+        "interview tips",
+        "interview questions",
+        "how to prepare interview",
+        "mock interview",
+        "technical interview",
+        "coding interview",
+        "hr interview"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    },
+    {
+      "intent": "specialization_choice",
+      "keywords": [
+        "which field",
+        "which domain",
+        "what to choose",
+        "best field",
+        "trending field",
+        "which specialization",
+        "ai or web",
+        "ml or data",
+        "what should i pick",
+        "confused between"
+      ],
+      "course_entity_required": false,
+      "intent_category": "career_guidance",
+      "reply_template": ""
+    }
+  ]
+}

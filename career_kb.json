@@ -1,0 +1,537 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Curated career roadmap templates. LLM tailors these to the user's profile but cannot invent facts.",
+    "disclaimer": "This is guidance based on industry trends. Outcomes depend on your effort, consistency, and opportunities."
+  },
+
+  "roadmaps": [
+    {
+      "domain_id": "ai_data_science_beginner",
+      "domain": "AI & Data Science",
+      "subtitle": "Beginner path — from zero to job-ready Data Scientist",
+      "we_offer_this": true,
+      "target_roles": ["Data Analyst", "Junior Data Scientist", "ML Intern"],
+      "prerequisites": ["Basic computer skills", "Class 12 math (or willingness to learn)"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Foundations",
+          "duration": "0-2 weeks",
+          "topics": ["Python basics (variables, loops, functions, OOP)", "Jupyter Notebook setup", "Basic statistics (mean, median, probability)"],
+          "checkpoint": "Can write a Python script that reads a CSV and computes summary stats"
+        },
+        {
+          "stage": 2,
+          "title": "Core Skills",
+          "duration": "2-6 weeks",
+          "topics": ["NumPy & Pandas for data manipulation", "Matplotlib & Seaborn for visualization", "Exploratory Data Analysis (EDA)", "SQL basics for querying databases"],
+          "checkpoint": "Can perform EDA on any dataset and present 5 insights with charts"
+        },
+        {
+          "stage": 3,
+          "title": "Machine Learning",
+          "duration": "6-12 weeks",
+          "topics": ["Supervised learning: regression, classification", "Unsupervised learning: clustering, PCA", "Model evaluation: cross-validation, metrics", "Feature engineering & hyperparameter tuning"],
+          "checkpoint": "Can build, evaluate, and explain an end-to-end ML pipeline"
+        },
+        {
+          "stage": 4,
+          "title": "Projects & Job Prep",
+          "duration": "3-6 months",
+          "topics": ["2 portfolio projects (one classification, one regression)", "Model deployment via Flask/FastAPI", "Resume building + LinkedIn optimization", "Mock interviews + case studies"],
+          "checkpoint": "Portfolio with 2 deployed projects, resume reviewed, 3 mock interviews done"
+        }
+      ],
+      "suggested_projects": [
+        "House Price Prediction with feature engineering",
+        "Customer Churn Analysis with business recommendations"
+      ],
+      "resource_types": ["Online courses (MOOCs)", "YouTube tutorials", "Kaggle competitions", "Textbooks (ISLR, Hands-on ML)"],
+      "related_our_courses": ["python_dsa", "ml_bootcamp"],
+      "time_estimate_hours_per_week": {"minimum": 8, "recommended": 15}
+    },
+    {
+      "domain_id": "ml_engineer",
+      "domain": "Machine Learning Engineer",
+      "subtitle": "Build, deploy, and maintain ML systems in production",
+      "we_offer_this": true,
+      "target_roles": ["ML Engineer", "Applied ML Scientist", "MLOps Engineer"],
+      "prerequisites": ["Python proficiency", "Basic ML knowledge (regression, classification)", "Comfort with Git and command line"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "ML Fundamentals Refresh",
+          "duration": "0-2 weeks",
+          "topics": ["Scikit-learn pipelines end-to-end", "Model selection & evaluation strategies", "Feature stores and data versioning concepts"],
+          "checkpoint": "Can build a reproducible ML pipeline with proper train/test split and metrics"
+        },
+        {
+          "stage": 2,
+          "title": "Production ML",
+          "duration": "2-6 weeks",
+          "topics": ["Model serving (Flask, FastAPI, BentoML)", "Containerization with Docker", "CI/CD for ML pipelines", "Experiment tracking (MLflow/Weights & Biases)"],
+          "checkpoint": "Can containerize and deploy an ML model with an API endpoint"
+        },
+        {
+          "stage": 3,
+          "title": "MLOps & Scale",
+          "duration": "6-12 weeks",
+          "topics": ["Cloud ML services (AWS SageMaker / GCP Vertex AI basics)", "Data pipelines (Airflow/Prefect basics)", "Model monitoring and drift detection", "A/B testing for models"],
+          "checkpoint": "Can set up a complete ML pipeline with training, deployment, and monitoring"
+        },
+        {
+          "stage": 4,
+          "title": "Portfolio & Interviews",
+          "duration": "3-6 months",
+          "topics": ["End-to-end ML system design", "System design interview prep", "Open-source contributions", "Technical blog writing"],
+          "checkpoint": "2 production-grade projects on GitHub, system design prep done"
+        }
+      ],
+      "suggested_projects": [
+        "Real-time fraud detection system with model monitoring",
+        "Recommendation engine deployed on cloud with A/B testing"
+      ],
+      "resource_types": ["MLOps courses", "Cloud certifications", "System design books", "Kaggle + DagsHub"],
+      "related_our_courses": ["python_dsa", "ml_bootcamp"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 20}
+    },
+    {
+      "domain_id": "deep_learning_specialist",
+      "domain": "Deep Learning Specialist",
+      "subtitle": "Master neural networks for Computer Vision and NLP",
+      "we_offer_this": true,
+      "target_roles": ["DL Engineer", "Computer Vision Engineer", "NLP Engineer", "Research Engineer"],
+      "prerequisites": ["Python proficiency", "Basic ML (regression, classification)", "Linear algebra & calculus basics"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Neural Network Foundations",
+          "duration": "0-2 weeks",
+          "topics": ["Perceptrons, activation functions, loss functions", "Backpropagation math intuition", "PyTorch or TensorFlow basics", "Training your first neural network"],
+          "checkpoint": "Can train a simple MLP on MNIST and explain forward/backward pass"
+        },
+        {
+          "stage": 2,
+          "title": "Computer Vision Track",
+          "duration": "2-6 weeks",
+          "topics": ["CNNs: convolutions, pooling, architectures (VGG, ResNet)", "Transfer learning and fine-tuning", "Object detection (YOLO basics)", "Image segmentation fundamentals"],
+          "checkpoint": "Can fine-tune a pre-trained model for a custom image classification task"
+        },
+        {
+          "stage": 3,
+          "title": "NLP Track",
+          "duration": "6-12 weeks",
+          "topics": ["Word embeddings (Word2Vec, GloVe)", "RNNs, LSTMs, sequence-to-sequence", "Transformers and attention mechanism", "BERT, GPT architecture understanding", "Fine-tuning pre-trained language models"],
+          "checkpoint": "Can fine-tune BERT for text classification and explain transformer architecture"
+        },
+        {
+          "stage": 4,
+          "title": "Research & Portfolio",
+          "duration": "3-6 months",
+          "topics": ["Read and implement 2-3 papers", "GANs or diffusion models basics", "Model optimization (quantization, pruning)", "Conference-style project presentation"],
+          "checkpoint": "2 portfolio projects (1 CV + 1 NLP), one paper replicated"
+        }
+      ],
+      "suggested_projects": [
+        "Plant/Food disease detector with mobile-friendly deployment",
+        "Sentiment analysis API using fine-tuned transformer"
+      ],
+      "resource_types": ["Stanford CS231n / CS224n", "Fast.ai courses", "arXiv papers", "PyTorch tutorials"],
+      "related_our_courses": ["python_dsa", "ml_bootcamp", "dl_track"],
+      "time_estimate_hours_per_week": {"minimum": 12, "recommended": 20}
+    },
+    {
+      "domain_id": "llm_rag_engineer",
+      "domain": "LLM / RAG Engineer",
+      "subtitle": "Build production applications powered by Large Language Models",
+      "we_offer_this": true,
+      "target_roles": ["LLM Engineer", "RAG Developer", "AI Application Engineer"],
+      "prerequisites": ["Python proficiency", "Basic understanding of APIs", "Familiarity with ML concepts helpful"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "LLM Fundamentals",
+          "duration": "0-2 weeks",
+          "topics": ["How LLMs work (transformer architecture overview)", "Prompt engineering techniques", "OpenAI / Claude / open-source LLM APIs", "Token limits, temperature, system prompts"],
+          "checkpoint": "Can build a chatbot using LLM APIs with proper prompt design"
+        },
+        {
+          "stage": 2,
+          "title": "RAG Pipelines",
+          "duration": "2-6 weeks",
+          "topics": ["Text embeddings and vector databases (ChromaDB, Pinecone, Weaviate)", "Document chunking strategies", "Retrieval pipeline: query → embed → search → generate", "Evaluation: retrieval accuracy, answer faithfulness"],
+          "checkpoint": "Can build a RAG system that answers questions from a document corpus"
+        },
+        {
+          "stage": 3,
+          "title": "Advanced RAG & Production",
+          "duration": "6-12 weeks",
+          "topics": ["Hybrid search (semantic + keyword)", "Re-ranking and query rewriting", "Multi-modal RAG (images + text)", "Guardrails, safety filters, hallucination detection", "Deployment and scaling considerations"],
+          "checkpoint": "Can build a production-ready RAG with guardrails and evaluation metrics"
+        },
+        {
+          "stage": 4,
+          "title": "Portfolio & Specialization",
+          "duration": "3-6 months",
+          "topics": ["Fine-tuning LLMs (LoRA, QLoRA basics)", "Building multi-turn conversational agents", "Cost optimization (caching, model selection)", "Open-source contributions to LLM tooling"],
+          "checkpoint": "2 deployed RAG projects, one with evaluation dashboard"
+        }
+      ],
+      "suggested_projects": [
+        "Document Q&A chatbot with citation and source tracking",
+        "Multi-document research assistant with RAG + summarization"
+      ],
+      "resource_types": ["LangChain / LlamaIndex docs", "Deeplearning.ai short courses", "Anthropic / OpenAI cookbooks", "RAG evaluation frameworks"],
+      "related_our_courses": ["python_dsa", "genai_agents"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 18}
+    },
+    {
+      "domain_id": "agentic_ai_engineer",
+      "domain": "Agentic AI Engineer",
+      "subtitle": "Build autonomous AI agents that reason, plan, and use tools",
+      "we_offer_this": true,
+      "target_roles": ["AI Agent Developer", "Agentic AI Engineer", "AI Automation Engineer"],
+      "prerequisites": ["Python proficiency", "LLM API experience", "Basic RAG understanding helpful"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Agent Foundations",
+          "duration": "0-2 weeks",
+          "topics": ["What are AI agents (ReAct, Plan-and-Execute)", "Tool use / function calling with LLMs", "LangChain agents basics", "Structured output and JSON mode"],
+          "checkpoint": "Can build a simple agent that uses 2-3 tools to answer questions"
+        },
+        {
+          "stage": 2,
+          "title": "Multi-Agent Systems",
+          "duration": "2-6 weeks",
+          "topics": ["CrewAI / AutoGen / LangGraph frameworks", "Agent roles, delegation, and collaboration", "Memory systems (short-term, long-term, shared)", "Error handling and retry strategies for agents"],
+          "checkpoint": "Can build a multi-agent system where agents collaborate on a task"
+        },
+        {
+          "stage": 3,
+          "title": "Production Agents",
+          "duration": "6-12 weeks",
+          "topics": ["Human-in-the-loop patterns", "Guardrails and safety for autonomous agents", "Evaluation and testing agent behavior", "Cost control and token optimization", "Deploying agents as services"],
+          "checkpoint": "Can deploy a production agent with guardrails, logging, and cost tracking"
+        },
+        {
+          "stage": 4,
+          "title": "Advanced & Portfolio",
+          "duration": "3-6 months",
+          "topics": ["Custom tool creation (APIs, databases, web scraping)", "Agent orchestration platforms", "Benchmarking agents (SWE-bench, etc.)", "Building agent SDKs or frameworks"],
+          "checkpoint": "2 deployed agent projects, one open-source contribution"
+        }
+      ],
+      "suggested_projects": [
+        "Multi-agent research assistant that finds, summarizes, and compiles reports",
+        "Code review agent that analyzes PRs and suggests improvements"
+      ],
+      "resource_types": ["LangChain/LangGraph docs", "CrewAI tutorials", "Anthropic tool use guide", "Agent evaluation papers"],
+      "related_our_courses": ["python_dsa", "genai_agents"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 18}
+    },
+    {
+      "domain_id": "voicebot_developer",
+      "domain": "Voicebot Developer",
+      "subtitle": "Build voice-enabled AI assistants and conversational IVR systems",
+      "we_offer_this": true,
+      "target_roles": ["Voicebot Developer", "Conversational AI Engineer", "Speech AI Engineer"],
+      "prerequisites": ["Python proficiency", "Basic ML understanding", "API integration experience"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Speech Fundamentals",
+          "duration": "0-2 weeks",
+          "topics": ["Speech-to-Text (STT) APIs and models", "Text-to-Speech (TTS) engines", "Audio processing basics (sampling rate, formats)", "Sarvam AI / Google / Azure speech APIs"],
+          "checkpoint": "Can build a script that converts speech to text and back"
+        },
+        {
+          "stage": 2,
+          "title": "Conversational Design",
+          "duration": "2-6 weeks",
+          "topics": ["Dialog management (state machines, slot filling)", "Intent recognition for voice", "Natural Language Understanding (NLU) pipelines", "Handling noise, accents, multilingual input"],
+          "checkpoint": "Can build a voice-driven FAQ bot with intent routing"
+        },
+        {
+          "stage": 3,
+          "title": "Production Voicebots",
+          "duration": "6-12 weeks",
+          "topics": ["Telephony integration (Twilio, Exotel)", "Real-time streaming STT/TTS", "LLM-powered voice agents", "Latency optimization for real-time conversation", "Multilingual and Indic language support"],
+          "checkpoint": "Can deploy a phone-based voicebot that handles real conversations"
+        },
+        {
+          "stage": 4,
+          "title": "Advanced & Portfolio",
+          "duration": "3-6 months",
+          "topics": ["Voice cloning and custom TTS", "Emotion detection from speech", "IVR automation for businesses", "Voice agent evaluation metrics"],
+          "checkpoint": "2 deployed voicebot projects, one handling real calls"
+        }
+      ],
+      "suggested_projects": [
+        "Voice-based customer support bot for a restaurant/clinic",
+        "Multilingual voice assistant using Sarvam AI + LLM"
+      ],
+      "resource_types": ["Sarvam AI docs", "Mozilla DeepSpeech", "Rasa voice tutorials", "Telephony API docs"],
+      "related_our_courses": ["python_dsa", "genai_agents"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 15}
+    },
+    {
+      "domain_id": "prompt_engineering",
+      "domain": "Prompt Engineering",
+      "subtitle": "Master the art and science of getting the best results from LLMs",
+      "we_offer_this": true,
+      "target_roles": ["Prompt Engineer", "AI Content Strategist", "LLM QA Specialist"],
+      "prerequisites": ["Curiosity and willingness to experiment", "Basic understanding of how AI chatbots work", "No coding required to start (Python helpful later)"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Prompt Basics",
+          "duration": "0-2 weeks",
+          "topics": ["How LLMs process prompts (tokens, context windows)", "Zero-shot, few-shot, and chain-of-thought prompting", "System prompts, role-playing, and persona setting", "Common pitfalls and how to debug bad outputs"],
+          "checkpoint": "Can write effective prompts for 5 different use cases"
+        },
+        {
+          "stage": 2,
+          "title": "Advanced Techniques",
+          "duration": "2-6 weeks",
+          "topics": ["Structured output (JSON, tables, formatted text)", "Prompt chaining and decomposition", "Self-consistency and verification prompts", "Prompt templates and parametric prompts"],
+          "checkpoint": "Can design prompt pipelines for complex multi-step tasks"
+        },
+        {
+          "stage": 3,
+          "title": "Applied Prompt Engineering",
+          "duration": "6-12 weeks",
+          "topics": ["Prompt engineering for code generation", "Prompt engineering for data analysis", "Red-teaming and safety testing", "Evaluation frameworks for prompt quality", "A/B testing prompts"],
+          "checkpoint": "Can systematically evaluate and optimize prompts with metrics"
+        },
+        {
+          "stage": 4,
+          "title": "Professional Practice",
+          "duration": "3-6 months",
+          "topics": ["Building prompt libraries for organizations", "Fine-tuning vs prompting trade-offs", "Teaching prompt engineering to teams", "Staying current with new models and techniques"],
+          "checkpoint": "Portfolio of 5+ prompt solutions across domains, evaluation reports"
+        }
+      ],
+      "suggested_projects": [
+        "Prompt library for automating customer support responses",
+        "Evaluation framework comparing prompt strategies across 3 LLMs"
+      ],
+      "resource_types": ["Anthropic prompt engineering guide", "OpenAI cookbook", "Learn Prompting (open-source)", "AI community blogs"],
+      "related_our_courses": ["genai_agents"],
+      "time_estimate_hours_per_week": {"minimum": 5, "recommended": 10},
+      "honesty_note": "Prompt engineering is a valuable skill but is evolving rapidly. It works best combined with technical skills like Python and ML fundamentals."
+    },
+    {
+      "domain_id": "cybersecurity",
+      "domain": "Cybersecurity",
+      "subtitle": "Protect systems, networks, and data from digital threats",
+      "target_roles": ["Security Analyst", "Penetration Tester", "SOC Analyst", "Security Engineer"],
+      "prerequisites": ["Basic networking (TCP/IP, DNS, HTTP)", "Linux command line basics", "Programming basics (Python recommended)"],
+      "we_offer_this": false,
+      "honesty_note": "We don't currently offer a dedicated cybersecurity course, but our Python+DSA course builds the programming foundation you'll need.",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Foundations",
+          "duration": "0-2 weeks",
+          "topics": ["Networking fundamentals (OSI model, TCP/IP)", "Linux basics and command line", "CIA triad, authentication, authorization", "Types of attacks (phishing, malware, injection)"],
+          "checkpoint": "Can explain common attack vectors and basic network protocols"
+        },
+        {
+          "stage": 2,
+          "title": "Core Security Skills",
+          "duration": "2-6 weeks",
+          "topics": ["Web application security (OWASP Top 10)", "Network security (firewalls, IDS/IPS)", "Cryptography basics (hashing, encryption, TLS)", "Vulnerability scanning tools (Nmap, Nessus basics)"],
+          "checkpoint": "Can identify OWASP Top 10 vulnerabilities in a sample web app"
+        },
+        {
+          "stage": 3,
+          "title": "Hands-On Practice",
+          "duration": "6-12 weeks",
+          "topics": ["Penetration testing methodology", "Tools: Burp Suite, Metasploit, Wireshark", "CTF (Capture The Flag) competitions", "Incident response basics", "Security Information and Event Management (SIEM)"],
+          "checkpoint": "Can complete 10+ CTF challenges and document findings professionally"
+        },
+        {
+          "stage": 4,
+          "title": "Certification & Career",
+          "duration": "3-6 months",
+          "topics": ["CompTIA Security+ or CEH preparation", "Bug bounty programs (HackerOne, Bugcrowd)", "Building a security portfolio", "SOC analyst or pentest interview prep"],
+          "checkpoint": "One certification started, 5 bug bounty reports submitted, interview-ready"
+        }
+      ],
+      "suggested_projects": [
+        "Security audit report for a sample web application",
+        "Home lab setup with vulnerable VMs for practice"
+      ],
+      "resource_types": ["TryHackMe / HackTheBox", "CompTIA study materials", "OWASP guides", "Cybersecurity YouTube channels"],
+      "related_our_courses": ["python_dsa"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 20}
+    },
+    {
+      "domain_id": "cloud_devops",
+      "domain": "Cloud & DevOps",
+      "subtitle": "Build, deploy, and manage scalable cloud infrastructure",
+      "target_roles": ["DevOps Engineer", "Cloud Engineer", "SRE", "Platform Engineer"],
+      "prerequisites": ["Linux command line basics", "Basic networking", "Any programming language (Python/Bash preferred)"],
+      "we_offer_this": false,
+      "honesty_note": "We don't currently offer a dedicated Cloud/DevOps course, but our Java Backend course covers Docker basics and CI/CD intro.",
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Foundations",
+          "duration": "0-2 weeks",
+          "topics": ["Linux administration basics", "Bash scripting", "Git and version control workflows", "Networking for cloud (VPC, subnets, DNS)"],
+          "checkpoint": "Can write Bash scripts and manage a Linux server via SSH"
+        },
+        {
+          "stage": 2,
+          "title": "Containerization & CI/CD",
+          "duration": "2-6 weeks",
+          "topics": ["Docker (images, containers, Dockerfile, compose)", "CI/CD pipelines (GitHub Actions / Jenkins)", "Container orchestration concepts", "Infrastructure as Code (Terraform basics)"],
+          "checkpoint": "Can dockerize an app and deploy it via a CI/CD pipeline"
+        },
+        {
+          "stage": 3,
+          "title": "Cloud Platforms",
+          "duration": "6-12 weeks",
+          "topics": ["AWS or Azure core services (EC2, S3, RDS, Lambda)", "Kubernetes basics (pods, services, deployments)", "Monitoring and logging (Prometheus, Grafana, ELK)", "Security best practices in cloud"],
+          "checkpoint": "Can deploy a multi-service app on Kubernetes with monitoring"
+        },
+        {
+          "stage": 4,
+          "title": "Advanced & Certification",
+          "duration": "3-6 months",
+          "topics": ["AWS Solutions Architect or Azure equivalent prep", "GitOps workflows (ArgoCD)", "Cost optimization and FinOps basics", "Site Reliability Engineering (SRE) practices"],
+          "checkpoint": "One cloud certification, 2 portfolio projects on GitHub"
+        }
+      ],
+      "suggested_projects": [
+        "Deploy a microservice app on Kubernetes with CI/CD and monitoring",
+        "Infrastructure-as-Code setup for a 3-tier web application"
+      ],
+      "resource_types": ["Cloud provider free tiers", "KodeKloud / A Cloud Guru", "Kubernetes docs", "DevOps roadmap.sh"],
+      "related_our_courses": ["python_dsa", "java_backend"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 18}
+    },
+    {
+      "domain_id": "web_dev",
+      "domain": "Web & App Development",
+      "subtitle": "Build modern websites and mobile applications",
+      "we_offer_this": false,
+      "honesty_note": "We don't currently offer a dedicated web/app development course, but our Java Backend course covers REST APIs, Spring Boot, and Docker basics which are useful for backend web development.",
+      "target_roles": ["Frontend Developer", "Full-Stack Developer", "Web Developer", "Mobile App Developer"],
+      "prerequisites": ["Basic computer skills", "Curiosity about building websites/apps"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Foundations",
+          "duration": "0-2 weeks",
+          "topics": ["HTML5 structure and semantics", "CSS3 styling, flexbox, grid", "JavaScript fundamentals (variables, functions, DOM)", "Version control with Git"],
+          "checkpoint": "Can build a static portfolio website with responsive design"
+        },
+        {
+          "stage": 2,
+          "title": "Frontend Frameworks",
+          "duration": "2-6 weeks",
+          "topics": ["React or Vue.js fundamentals", "Component-based architecture", "State management basics", "API consumption (fetch, axios)"],
+          "checkpoint": "Can build a dynamic single-page app that fetches data from an API"
+        },
+        {
+          "stage": 3,
+          "title": "Backend & Databases",
+          "duration": "6-12 weeks",
+          "topics": ["Node.js / Express or Python / Django basics", "REST API design and implementation", "Database fundamentals (SQL + MongoDB)", "Authentication and authorization"],
+          "checkpoint": "Can build a full-stack CRUD application with user auth"
+        },
+        {
+          "stage": 4,
+          "title": "Deployment & Portfolio",
+          "duration": "3-6 months",
+          "topics": ["Deployment (Vercel, Netlify, or cloud)", "Testing fundamentals", "Performance optimization basics", "2 portfolio projects with clean code"],
+          "checkpoint": "2 deployed full-stack projects, portfolio website live, interview-ready"
+        }
+      ],
+      "suggested_projects": [
+        "Personal portfolio website with blog (React + headless CMS)",
+        "Task management app with real-time updates (full-stack)"
+      ],
+      "resource_types": ["freeCodeCamp", "The Odin Project", "MDN Web Docs", "Frontend Mentor challenges"],
+      "related_our_courses": ["python_dsa", "java_backend"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 18}
+    },
+    {
+      "domain_id": "blockchain",
+      "domain": "Blockchain & Web3 Development",
+      "subtitle": "Build decentralized applications and smart contracts",
+      "we_offer_this": false,
+      "honesty_note": "We don't currently offer a blockchain/Web3 course. However, our Python+DSA course builds strong programming fundamentals, and our Java Backend course covers software engineering principles useful for blockchain development.",
+      "target_roles": ["Blockchain Developer", "Smart Contract Engineer", "Web3 Developer", "DeFi Developer"],
+      "prerequisites": ["Proficiency in at least one programming language", "Basic understanding of web development", "Interest in cryptography and distributed systems"],
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Blockchain Fundamentals",
+          "duration": "0-2 weeks",
+          "topics": ["How blockchain works (blocks, hashing, consensus)", "Bitcoin and Ethereum architecture", "Cryptography basics (hashing, digital signatures)", "Wallets, transactions, and gas"],
+          "checkpoint": "Can explain blockchain architecture and deploy a test transaction"
+        },
+        {
+          "stage": 2,
+          "title": "Smart Contract Development",
+          "duration": "2-6 weeks",
+          "topics": ["Solidity programming fundamentals", "Remix IDE and Hardhat/Foundry", "ERC-20 and ERC-721 token standards", "Smart contract testing and debugging"],
+          "checkpoint": "Can write, test, and deploy a basic smart contract on a testnet"
+        },
+        {
+          "stage": 3,
+          "title": "DApp Development",
+          "duration": "6-12 weeks",
+          "topics": ["Web3.js / Ethers.js for frontend integration", "IPFS and decentralized storage", "DeFi concepts (AMM, lending, staking)", "Security auditing basics (reentrancy, overflow)"],
+          "checkpoint": "Can build a full DApp with frontend, smart contract, and wallet integration"
+        },
+        {
+          "stage": 4,
+          "title": "Advanced & Portfolio",
+          "duration": "3-6 months",
+          "topics": ["Layer 2 solutions and scaling", "Cross-chain development concepts", "Smart contract security audit practice", "Open-source contributions to Web3 projects"],
+          "checkpoint": "2 deployed DApps, one security audit report, portfolio with GitHub"
+        }
+      ],
+      "suggested_projects": [
+        "ERC-20 token with a simple DEX interface",
+        "NFT marketplace with minting, listing, and buying functionality"
+      ],
+      "resource_types": ["CryptoZombies", "Ethereum.org docs", "Alchemy University", "Blockchain security audit guides"],
+      "related_our_courses": ["python_dsa", "java_backend"],
+      "time_estimate_hours_per_week": {"minimum": 10, "recommended": 18}
+    }
+  ],
+
+  "intake_questions": [
+    {
+      "field": "background",
+      "question": "What's your current background?\n1. Student (school/college)\n2. Fresh graduate\n3. Working professional\n4. Career switcher",
+      "short_label": "Background",
+      "options": ["Student", "Fresh graduate", "Working professional", "Career switcher"]
+    },
+    {
+      "field": "skills",
+      "question": "What skills do you already have?\n1. Complete beginner (no coding)\n2. Know basics (Python/Java/any language)\n3. Intermediate (built projects)\n4. Advanced (working in tech already)",
+      "short_label": "Skill Level",
+      "options": ["Complete beginner", "Know basics", "Intermediate", "Advanced"]
+    },
+    {
+      "field": "goal",
+      "question": "What's your primary goal?\n1. Get an internship\n2. Land a full-time job\n3. Build projects / portfolio\n4. Upskill for current role\n5. Explore / learn for fun",
+      "short_label": "Goal",
+      "options": ["Internship", "Full-time job", "Build projects", "Upskill", "Explore"]
+    },
+    {
+      "field": "hours_per_week",
+      "question": "How many hours per week can you dedicate?\n1. Less than 5 hours\n2. 5-10 hours\n3. 10-20 hours\n4. 20+ hours (intensive)",
+      "short_label": "Time Commitment",
+      "options": ["<5 hours", "5-10 hours", "10-20 hours", "20+ hours"]
+    }
+  ]
+}
